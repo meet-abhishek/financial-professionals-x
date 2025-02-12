@@ -13,8 +13,8 @@ export default function BioCard({ person }) {
           <h4>Net Worth: {person.netWorth}</h4>
         </div>
         <div className="divider"></div>
-        <div className="details-container">
-          <div className="detais">
+        
+          <div className="details">
             <div className="role">
               <h5>{person.role}</h5>
               <h5>{person.education}</h5>
@@ -33,7 +33,7 @@ export default function BioCard({ person }) {
               <h5>{person.famousQuote}</h5>
             </div>
           </div>
-        </div>
+        
       </div>
     </>
   );

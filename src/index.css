@@ -93,12 +93,8 @@ footer span a {
   justify-content: center;
 }
 
-.details-container {
-  flex: 3;
-  display: flex;
-}
-
 .details {
+  flex: 3;
   display: flex;
   flex-direction: column;
   justify-content: center;
